@@ -11,9 +11,25 @@ nav {
   justify-content: space-between;
   color: #58402c;
   padding-left: 20px;
-  border-bottom: 2px solid #58402c;
+  border-bottom: 1px solid #58402c;
 }
 nav li {
-  padding-left: 10px;
+  padding-left: 30px;
   font-size: 20px;
+  font-weight: 800;
+}
+nav li a {
+  text-decoration: none;
+  color: #58402c;
+}
+nav #google_signup {
+  color: #2c4792;
+  margin-left: 30px;
+  padding: 10px;
+  border: 1px solid #2c4792;
+  border-radius: 5px;
+}
+nav #google_signup img {
+  width: 25px;
+  vertical-align: bottom;
 }

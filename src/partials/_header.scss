@@ -4,10 +4,26 @@ nav {
     justify-content: space-between;
     color: $brand_text_color;
     padding-left: 20px;
-    border-bottom: 2px solid $brand_text_color;
+    border-bottom: 1px solid $brand_text_color;
 
     li {
-        padding-left: 10px;
+        padding-left: 30px;
         font-size: $nav_font_size;
+        font-weight: $strong_text;
+        a {
+            text-decoration: none;
+            color: $brand_text_color;
+        }
+    }
+    #google_signup {
+        img {
+            width: 25px;
+            vertical-align: bottom;
+        }
+        color: $brand_blue_color;
+        margin-left: 30px;
+        padding: 10px;
+        border: 1px solid $brand_blue_color;
+        border-radius: $rounded_border;
     }
 }
