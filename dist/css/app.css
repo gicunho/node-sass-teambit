@@ -1,0 +1,19 @@
+li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+nav {
+  width: 1200px;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  color: #58402c;
+  padding-left: 20px;
+  border-bottom: 2px solid #58402c;
+}
+nav li {
+  padding-left: 10px;
+  font-size: 20px;
+}

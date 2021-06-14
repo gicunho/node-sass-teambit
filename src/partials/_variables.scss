@@ -1,0 +1,8 @@
+$brand_text_color: #58402c;
+$nav_font_size: 20px;
+
+@mixin my_container {
+    width: 1200px;
+    text-align: center;
+    margin: auto;
+}

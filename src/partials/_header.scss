@@ -1,0 +1,13 @@
+nav {
+    @include my_container;
+    display: flex;
+    justify-content: space-between;
+    color: $brand_text_color;
+    padding-left: 20px;
+    border-bottom: 2px solid $brand_text_color;
+
+    li {
+        padding-left: 10px;
+        font-size: $nav_font_size;
+    }
+}
